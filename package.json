@@ -1,0 +1,22 @@
+{
+	"name": "sosial_media_restapi",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"author": "Raouf Satto",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.11"
+	},
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"helmet": "^4.6.0",
+		"mongoose": "^5.13.2",
+		"morgan": "^1.10.0"
+	}
+}
